@@ -1,0 +1,14 @@
+.info-box{
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+  justify-content: space-between;
+  width: 710rpx;
+  padding:0 20rpx;
+}
+.container-box>:nth-child(odd){
+  background-color: #f2f2f6;
+}
+.container-box>:nth-child(even){
+  background-color: #e5e4e9;
+}

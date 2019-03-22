@@ -1,0 +1,10 @@
+<view class="container-box">
+  <block a:for="{{systemInfo}}" a:for-index="name" a:for-item="value">
+    <view class="info-box">
+      <view>{{systemInfoMap[name]}}
+      </view>
+      <view>{{value}}
+      </view>
+    </view>
+  </block>
+</view>

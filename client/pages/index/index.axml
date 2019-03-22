@@ -1,0 +1,11 @@
+<!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
+<favorite>收藏小程序，下次使用更方便
+</favorite>
+<view class="container-view">
+  <text a:if="{{!userInfo.avatar}}">授权后显示美美的头像</text>
+  <block a:else>
+    <image src="{{userInfo.avatar}}"></image>
+    <text class="nickName">你好 {{userInfo.nickName}} ~~</text>
+  </block>
+  <button type="primary" data-url="../systemInfo/systemInfo" onTap="routerPage">查看手机详细参数</button>
+</view>

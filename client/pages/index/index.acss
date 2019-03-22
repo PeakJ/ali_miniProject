@@ -1,0 +1,20 @@
+.container-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(../../images/830467c761efccbc7a8633d39daab461.jpeg);
+    background-size: 100% 100%;
+}
+.container-view image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.nickName{
+  margin-top: 10rpx;
+}
+button{
+  margin: 20rpx;
+}
