@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-image: url(../../images/830467c761efccbc7a8633d39daab461.jpeg);
+    background-image: url(https://s1.ax1x.com/2022/03/07/b6SPxg.jpg);
     background-size: 100% 100%;
 }
 .container-view image{
