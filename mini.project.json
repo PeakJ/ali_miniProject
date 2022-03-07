@@ -1,5 +1,3 @@
 {
-  "cloud": {
-    "type": "BASEMENT"
-  }
+  "miniprogramRoot": "client"
 }
